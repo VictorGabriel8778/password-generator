@@ -1,6 +1,6 @@
 # password-generator
 
 requires libraries
-pysimplegui
-random
+pysimplegui,
+random,
 os
