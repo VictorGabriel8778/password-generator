@@ -6,9 +6,9 @@ class pass_gen:
     def __init__(self):
         sg.theme('Black')
         layout = [
-            [sg.Text("Site/Software",size=(10,1)),sg.Input(key="site", size=(20,1))],
-            [sg.Text("E-mail/Usuario", size=(10,1)),sg.Input(key="user", size=(20,1))],
-            [sg.Text("Quantidade de caracteres", size=(10,1)), sg.Combo(values=list(range(31)),key="total_chars", default_value=1, size=(3,1))],
+            [sg.Text("Site/Software",size=(10,1)),sg.Input(key="site", size=(21,1))],
+            [sg.Text("E-mail/Usuario", size=(10,1)),sg.Input(key="user", size=(21,1))],
+            [sg.Text("Quantidade de caracteres", size=(24,1)), sg.Combo(values=list(range(31)),key="total_chars", default_value=1, size=(3,1))],
             [sg.Output(size=(32,5))],
             [sg.Button("Gerar senha")]
         ]
